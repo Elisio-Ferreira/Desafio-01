@@ -1,0 +1,100 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 135vh;
+
+}
+
+.frame2 {
+    display: flex;
+    width: 100%;
+
+    padding-bottom: 64px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.frame3{
+    margin: 20px;
+}
+
+.search {
+    background-image: url(../img/icon-search.svg);
+    background-repeat: no-repeat;
+    background-size: 3% 90%;
+    /* Ajuste conforme necessário */
+    background-position: 10px center;
+    border-radius: 8px;
+    padding-left: 35px;
+    border: 2px solid #252529;
+    margin-top: 48px;
+    width: 50vw;
+    height: 35px;
+}
+
+h1 {
+
+    font-family: Space Grotesk;
+    font-size: 25px;
+    margin-top: 64px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+span {
+
+    font-family: Space Grotesk;
+    font-size: 25px;
+
+    font-weight: 500;
+
+}
+
+
+
+.div {
+    margin: 40px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 2px solid #E07B67;
+    width: 50vw;
+    margin-top: 80px;
+
+}
+
+
+.div div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div h3 {
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+   margin-bottom: 16px;
+
+}
+section div div p{
+    color: #E07B67;
+font-family: Inter;
+font-size: 12px;
+
+
+}
+div p {
+
+    color: #AFABB6;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+section div{
+    background-color: #202024;
+}
