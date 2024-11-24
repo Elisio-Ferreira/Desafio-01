@@ -5,7 +5,7 @@
     align-items: center;
     background: var(--dark-10);
     height: 100%;
-    
+
 
 
 }
@@ -80,7 +80,7 @@ span {
 .frame2 div div {
     display: flex;
     justify-content: space-between;
-
+    
 }
 
 
@@ -88,11 +88,12 @@ span {
 h3 {
     color: var(--dark-60);
     font-family: Space Grotesk;
-    font-size: 18px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
     margin-bottom: 16px;
     margin-left: 40px;
+
 
 }
 
@@ -111,14 +112,35 @@ p {
     font-style: normal;
     font-weight: 500;
     margin-left: 40px;
+    margin-right: 40px;
 
 }
 
 section div {
     background-color: var(--dark-30);
+    overflow: hidden;
 }
 
 .frame2 .contenner .sub-contenner {
     margin-top: 20px;
     margin-right: 40px;
+}
+
+
+
+
+#icon {
+    fill: #17171A;
+    stroke: #E07B67;
+    stroke-width: 7;
+    width: 25px;
+    height: 30px;
+    transition: fill 0.3s;
+    cursor: pointer;
+
+}
+
+#icon.filled,
+#icon:hover {
+    fill: #E07B67;
 }
